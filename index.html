@@ -124,6 +124,10 @@
           <a href="#"
             class="text-white no-underline text-sm lg:text-base flex items-center hover:text-yellow-300">الألعاب</a>
         </li>
+        <!-- Add to desktop nav -->
+        <li class="mr-3 lg:mr-6 relative font-bold">
+          <a href="all_products.html" class="text-white no-underline text-sm lg:text-base flex items-center hover:text-yellow-300">جميع المنتجات</a>
+        </li>
       </ul>
     </div>
   </nav>
@@ -167,6 +171,10 @@
         <li class="border-b border-gray-100">
           <a href="#" class="block py-3 px-4 text-gray-700 hover:bg-orange-50">تسجيل دخول / تسجيل</a>
         </li>
+        <!-- Add to mobile menu -->
+        <li class="border-b border-gray-100">
+          <a href="all_products.html" class="block py-3 px-4 text-gray-700 hover:bg-orange-50">جميع المنتجات</a>
+        </li>
       </ul>
     </div>
   </div>
@@ -183,7 +191,7 @@
           جديدة</span>
         <h1 class="text-2xl md:text-4xl my-2 md:my-3 text-gray-800 font-bold">لكل لحظة لعب... قصة خيالية تبدأ هنا!</h1>
         <p class="text-gray-600 mb-4 md:mb-8 text-sm md:text-base">متعة لا تنتهي... وأفكار تنمو مع كل لعبة!</p>
-        <a href="#"
+        <a href="all_products.html"
           class="inline-block py-2 px-6 md:py-3 md:px-8 bg-orange-500 text-white no-underline rounded font-bold transition-colors hover:bg-orange-600 text-sm md:text-base">تسوق
           الآن</a>
       </div>
@@ -226,8 +234,9 @@
     <section class="my-8 md:my-10">
       <div class="flex justify-between items-center mb-5">
         <h2 class="text-xl md:text-2xl text-gray-800 m-0 font-bold">الألعاب حسب الفئة</h2>
-        <a href="#" class="flex items-center text-orange-500 no-underline font-bold text-sm md:text-base">عرض جميع
-          الفئات ←</a>
+        <a href="all_products.html" class="flex items-center text-orange-500 no-underline font-bold text-sm md:text-base">
+          عرض جميع الفئات ←
+        </a>
       </div>
 
       <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 md:gap-4">
@@ -300,79 +309,88 @@
       </div>
     </section>
 
-    <!-- Featured Products Section (Added) -->
     <!-- Featured Products Section (Modified) -->
     <section class="my-8 md:my-10">
       <div class="flex justify-between items-center mb-5">
         <h2 class="text-xl md:text-2xl text-gray-800 m-0 font-bold">منتجات مميزة</h2>
-        <a href="#" class="flex items-center text-orange-500 no-underline font-bold text-sm md:text-base">عرض الكل ←</a>
+        <a href="all_products.html" class="flex items-center text-orange-500 no-underline font-bold text-sm md:text-base">
+          عرض الكل ←
+        </a>
       </div>
 
       <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         <!-- Product 1 -->
         <div class="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 overflow-hidden">
-          <div class="h-40 md:h-48 relative overflow-hidden">
-            <img src="1.jpg" alt="لعبة ليغو" class="w-full h-full object-contain p-2" />
-            <span class="absolute top-2 right-2 bg-red-500 text-white text-xs rounded-full py-1 px-2">خصم 15%</span>
-          </div>
-          <div class="p-3 md:p-4">
-            <h3 class="text-sm md:text-base font-bold mb-1 line-clamp-2">مجموعة ليغو سيتي - Disney</h3>
-            <div class="text-gray-500 text-xs md:text-sm mb-2">حلوة كثير</div>
-            <div class="flex justify-between items-center">
-              <div class="font-bold text-sm md:text-base text-orange-500">29 د.أ</div>
-              <button
-                class="bg-orange-500 text-white rounded-full w-8 h-8 flex items-center justify-center hover:bg-orange-600">+</button>
+          <a href="detiles.html">
+            <div class="h-40 md:h-48 relative overflow-hidden">
+              <img src="1.jpg" alt="لعبة ليغو" class="w-full h-full object-contain p-2" />
+              <span class="absolute top-2 right-2 bg-red-500 text-white text-xs rounded-full py-1 px-2">خصم 15%</span>
             </div>
-          </div>
+            <div class="p-3 md:p-4">
+              <h3 class="text-sm md:text-base font-bold mb-1 line-clamp-2">مجموعة ليغو سيتي - Disney</h3>
+              <div class="text-gray-500 text-xs md:text-sm mb-2">حلوة كثير</div>
+              <div class="flex justify-between items-center">
+                <div class="font-bold text-sm md:text-base text-orange-500">29 د.أ</div>
+                <button
+                  class="bg-orange-500 text-white rounded-full w-8 h-8 flex items-center justify-center hover:bg-orange-600">+</button>
+              </div>
+            </div>
+          </a>
         </div>
 
         <!-- Product 2 -->
         <div class="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 overflow-hidden">
-          <div class="h-40 md:h-48 relative overflow-hidden">
-            <img src="2.jpg" alt="دمية باربي" class="w-full h-full object-contain p-2" />
-          </div>
-          <div class="p-3 md:p-4">
-            <h3 class="text-sm md:text-base font-bold mb-1 line-clamp-2">دمية باربي مع مجموعة أزياء فاخرة</h3>
-            <div class="text-gray-500 text-xs md:text-sm mb-2">وصف</div>
-            <div class="flex justify-between items-center">
-              <div class="font-bold text-sm md:text-base text-orange-500">14 د.أ</div>
-              <button
-                class="bg-orange-500 text-white rounded-full w-8 h-8 flex items-center justify-center hover:bg-orange-600">+</button>
+          <a href="detiles.html">
+            <div class="h-40 md:h-48 relative overflow-hidden">
+              <img src="2.jpg" alt="دمية باربي" class="w-full h-full object-contain p-2" />
             </div>
-          </div>
+            <div class="p-3 md:p-4">
+              <h3 class="text-sm md:text-base font-bold mb-1 line-clamp-2">دمية باربي مع مجموعة أزياء فاخرة</h3>
+              <div class="text-gray-500 text-xs md:text-sm mb-2">وصف</div>
+              <div class="flex justify-between items-center">
+                <div class="font-bold text-sm md:text-base text-orange-500">14 د.أ</div>
+                <button
+                  class="bg-orange-500 text-white rounded-full w-8 h-8 flex items-center justify-center hover:bg-orange-600">+</button>
+              </div>
+            </div>
+          </a>
         </div>
 
         <!-- Product 3 -->
         <div class="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 overflow-hidden">
-          <div class="h-40 md:h-48 relative overflow-hidden">
-            <img src="3.jpg" alt="سيارة سباق" class="w-full h-full object-contain p-2" />
-            <span class="absolute top-2 right-2 bg-green-500 text-white text-xs rounded-full py-1 px-2">جديد</span>
-          </div>
-          <div class="p-3 md:p-4">
-            <h3 class="text-sm md:text-base font-bold mb-1 line-clamp-2">سيارة سباق متحكم بها عن بعد </h3>
-            <div class="text-gray-500 text-xs md:text-sm mb-2">وصف</div>
-            <div class="flex justify-between items-center">
-              <div class="font-bold text-sm md:text-base text-orange-500">19 د.أ</div>
-              <button
-                class="bg-orange-500 text-white rounded-full w-8 h-8 flex items-center justify-center hover:bg-orange-600">+</button>
+          <a href="detiles.html">
+            <div class="h-40 md:h-48 relative overflow-hidden">
+              <img src="3.jpg" alt="سيارة سباق" class="w-full h-full object-contain p-2" />
+              <span class="absolute top-2 right-2 bg-green-500 text-white text-xs rounded-full py-1 px-2">جديد</span>
             </div>
-          </div>
+            <div class="p-3 md:p-4">
+              <h3 class="text-sm md:text-base font-bold mb-1 line-clamp-2">سيارة سباق متحكم بها عن بعد </h3>
+              <div class="text-gray-500 text-xs md:text-sm mb-2">وصف</div>
+              <div class="flex justify-between items-center">
+                <div class="font-bold text-sm md:text-base text-orange-500">19 د.أ</div>
+                <button
+                  class="bg-orange-500 text-white rounded-full w-8 h-8 flex items-center justify-center hover:bg-orange-600">+</button>
+              </div>
+            </div>
+          </a>
         </div>
 
         <!-- Product 4 -->
         <div class="bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 overflow-hidden">
-          <div class="h-40 md:h-48 relative overflow-hidden">
-            <img src="4.jpg" alt="لعبة تعليمية" class="w-full h-full object-contain p-2" />
-          </div>
-          <div class="p-3 md:p-4">
-            <h3 class="text-sm md:text-base font-bold mb-1 line-clamp-2">لعبة تعليمية للأرقام والحروف - خشبية</h3>
-            <div class="text-gray-500 text-xs md:text-sm mb-2">وصف</div>
-            <div class="flex justify-between items-center">
-              <div class="font-bold text-sm md:text-base text-orange-500">9 د.أ</div>
-              <button
-                class="bg-orange-500 text-white rounded-full w-8 h-8 flex items-center justify-center hover:bg-orange-600">+</button>
+          <a href="detiles.html">
+            <div class="h-40 md:h-48 relative overflow-hidden">
+              <img src="4.jpg" alt="لعبة تعليمية" class="w-full h-full object-contain p-2" />
             </div>
-          </div>
+            <div class="p-3 md:p-4">
+              <h3 class="text-sm md:text-base font-bold mb-1 line-clamp-2">لعبة تعليمية للأرقام والحروف - خشبية</h3>
+              <div class="text-gray-500 text-xs md:text-sm mb-2">وصف</div>
+              <div class="flex justify-between items-center">
+                <div class="font-bold text-sm md:text-base text-orange-500">9 د.أ</div>
+                <button
+                  class="bg-orange-500 text-white rounded-full w-8 h-8 flex items-center justify-center hover:bg-orange-600">+</button>
+              </div>
+            </div>
+          </a>
         </div>
       </div>
     </section>
@@ -395,6 +413,11 @@
         </div>
       </div>
     </section>
+
+    <!-- Example: Add this to your homepage where you want the "All Products" link -->
+    <a href="all_products.html" class="flex items-center text-orange-500 no-underline font-bold text-sm md:text-base">
+      عرض الكل ←
+    </a>
   </main>
 
   <!-- Footer (Added) -->
